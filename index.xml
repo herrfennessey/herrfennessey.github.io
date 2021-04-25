@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dave Fennessey&#39;s Geocities Page</title>
-    <link>http://dfennessey.com/</link>
-    <description>Recent content on Dave Fennessey&#39;s Geocities Page</description>
+    <title>DaveFennessey</title>
+    <link>https://dfennessey.com/</link>
+    <description>Recent content on DaveFennessey</description>
     <image>
-      <url>http://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://dfennessey.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://dfennessey.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://dfennessey.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dfennessey.com/contact/</guid>
+      <description>You can contact us here!
+Name      E-mail address      Message    Send   (Powered by Un-static Forms)
+  </description>
+    </item>
+    
   </channel>
 </rss>
