@@ -76,9 +76,9 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: >
-            My name is Dave Fennessey. I'm a professional software developer working on the Search team at Wayfair.com. My goal 
-            is to never stop learning to be a better engineer, data scientist, photographer, and linguist. 
+        Content: >-
+            My name is Dave Fennessey. I'm a professional software developer working on the Search Technologies team at Wayfair.com. I love
+            software design, foreign languages, machine learning, and never being done. 
 
     socialIcons:
         - name: linkedin
