@@ -1,6 +1,6 @@
-baseURL: http://dfennessey.com/
+baseURL: https://dfennessey.com/
 languageCode: en-us
-title: Dave Fennessey's Geocities Page
+title: DaveFennessey
 theme: "PaperMod"
 paginate: 5
 
@@ -9,11 +9,15 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+taxonomies:
+  projects: projects
+  blogs: blogs
+
 googleAnalytics: G-KS4P05R98L
 
 minify:
     disableXML: true
-    minifyOutput: true
+    minifyOutput: false
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -27,8 +31,6 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
     ShowBreadCrumbs: true
     disableSpecial1stPost: false
     disableScrollToTop: false
@@ -67,16 +69,20 @@ params:
             - name: Tags
               url: tags
 
+    label:
+        text: "dfennessey.com"
+
+
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: >
+            My name is Dave Fennessey. I'm a professional software developer working on the Search team at Wayfair.com. My goal 
+            is to never stop learning to be a better engineer, data scientist, photographer, and linguist. 
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/david-fennessey/"
         - name: github
           url: "https://github.com/herrfennessey"
 
@@ -84,11 +90,6 @@ params:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
         hiddenInSingle: true # hide on single page
-
-    editPost:
-        URL: "https://github.com/<path_to_repo>/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
 
     # for search
     # https://fusejs.io/api/options.html
@@ -102,15 +103,15 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: projects
+          name: projects
+          url: /projects/
           weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
+        - identifier: blogs
+          name: blogs
+          url: /blogs/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: contact
+          name: contact
+          url: /contact
           weight: 30
