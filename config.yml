@@ -21,7 +21,6 @@ params:
     description: "ExampleSite description"
     keywords: [Blog, Portfolio, PaperMod]
     author: Me
-    # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
@@ -79,7 +78,7 @@ params:
         - name: stackoverflow
           url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/herrfennessey"
 
     cover:
         hidden: true # hide everywhere but not in structured data
