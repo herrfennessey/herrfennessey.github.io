@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dave Fennessey's Geocities Page</title><link>http://dfennessey.com/</link><description>Recent content on Dave Fennessey's Geocities Page</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://dfennessey.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dave Fennessey&#39;s Geocities Page</title>
+    <link>http://dfennessey.com/</link>
+    <description>Recent content on Dave Fennessey&#39;s Geocities Page</description>
+    <image>
+      <url>http://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://dfennessey.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://dfennessey.com/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

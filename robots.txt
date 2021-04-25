@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://dfennessey.com/sitemap.xml
