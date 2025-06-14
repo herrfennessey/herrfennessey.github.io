@@ -4,10 +4,14 @@ title: dfennessey.com
 theme: ["PaperMod"]
 
 params:
+  homeInfoParams:
+    Title: Hey There 👋
+    Content: My name is Dave Fennessey. I’m a principal engineer working at Flink in Berlin (the one with the pink bikes).
+      I love the intersection of software architecture, foreign languages, and machine learning. My favorite feeling in the
+      world is starting a new GitHub project for a new idea.
+
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/herrfennessey/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/david-fennessey/"
