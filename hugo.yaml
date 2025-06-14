@@ -1,0 +1,13 @@
+baseURL: https://dfennessey.com
+languageCode: en-us
+title: dfennessey.com
+theme: ["PaperMod"]
+
+params:
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
