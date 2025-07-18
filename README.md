@@ -1,3 +1,1 @@
 # dfennessey-blog
-
-Redeploy plz
